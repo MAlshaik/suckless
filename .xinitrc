@@ -1,5 +1,7 @@
 #!/bin/sh
 
+xrandr -s 1920x1080
+
 userresources=$HOME/.Xresources
 usermodmap=$HOME/.Xmodmap
 sysresources=/etc/X11/xinit/.Xresources

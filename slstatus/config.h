@@ -65,11 +65,11 @@ static const char unknown_str[] = "n/a";
  */
 static const struct arg args[] = {
 	/* function format          argument */
-	{ run_command, "[%s] ",	     "/opt/featherOS/bin/weather.sh"},
-	/*{ run_command, "[%s] ",	     "/opt/featherOS/bin/volumn.sh"},*/
-	{ run_command, "[%s] ",	     "/opt/featherOS/bin/memory.sh"},
+	{ run_command, "[%s] ",	     "/suckless/bin/weather.sh"},
+	{ run_command, "[%s] ",	     "/suckless/bin/volumn.sh"},
+	{ run_command, "[%s] ",	     "/suckless/bin/memory.sh"},
 	{ cpu_perc, "[CPU  %s%%] ",	      NULL},
 	{ datetime, "[ %s] ",           "%a %b %d %R" },
-	{ run_command, "[%s]",     "/opt/featherOS/bin/internet.sh"},
-	{ run_command, "[%s]",     "/opt/featherOS/bin/battery.sh"},
+	{ run_command, "[%s]",     "/suckless/bin/internet.sh"},
+	{ run_command, "[%s]",     "/suckless/bin/battery.sh"},
 };
