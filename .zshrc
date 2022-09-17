@@ -12,7 +12,7 @@ SAVEHIST=1000000
 bindkey -e
 # End of lines configured by zsh-newuser-install
 # The following lines were added by compinstall
-zstyle :compinstall filename '/home/shankar/.zshrc'
+zstyle :compinstall filename '/home/mo/.zshrc'
 
 autoload -Uz compinit
 zstyle ':completion:*' menu select
